@@ -2,7 +2,7 @@
   "buildCommand": "expo export -p web",
   "outputDirectory": "dist/client",
   "functions": {
-    "api/index.js": {
+    "app/api/index.js": {
       "runtime": "@vercel/node@3.0.11",
       "includeFiles": "dist/server/**"
     }
@@ -10,7 +10,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/api/index.js"
+      "destination": "app/api/index.js"
     }
   ]
 }

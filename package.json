@@ -9,7 +9,6 @@
     "ios": "expo start --ios",
     "migrate": "ley --require tsx/cjs",
     "start": "expo start",
-    "vercel-build": "expo export -p web",
     "web": "expo start --web"
   },
   "dependencies": {

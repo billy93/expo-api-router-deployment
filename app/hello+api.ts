@@ -1,3 +1,3 @@
-export function GET(request: Request) {
-  return Response.json({ hello: 'world' });
+export function GET() {
+  return Response.json({ message: 'hello world' });
 }

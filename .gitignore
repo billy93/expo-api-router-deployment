@@ -36,3 +36,6 @@ yarn-error.*
 
 .eslintcache
 .vercel
+
+# Local Netlify folder
+.netlify

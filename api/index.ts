@@ -5,6 +5,5 @@ type Test = {
 }
 
 module.exports = createRequestHandler({
-  build: require('path').join(__dirname, '../dist/server'),
-  mode: process.env.NODE_ENV,
+  build: require('path').join(__dirname, '../dist/server') as Test,
 });
